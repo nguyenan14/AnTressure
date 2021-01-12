@@ -2,9 +2,9 @@
   var questions = [
     {
       img: "https://an-tressure.herokuapp.com/q1.png",
-      question: "What is 2*5?",
-      choices: [2, 5, 10, 15, 20],
-      correctAnswer: 2,
+      question: "How do you write Le Van last name?",
+      choices: ["Biu", "Bui", "Buy", "Byu"],
+      correctAnswer: 1,
     },
     {
       img: "https://an-tressure.herokuapp.com/q2.png",
