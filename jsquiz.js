@@ -23,13 +23,7 @@
       question: "What is 1*7?",
       choices: [4, 5, 6, 7, 8],
       correctAnswer: 3,
-    },
-    {
-      img: "https://an-tressure.herokuapp.com/q5.png",
-      question: "What is 8*8?",
-      choices: [20, 30, 40, 50, 64],
-      correctAnswer: 4,
-    },
+    }
   ];
 
   var questionCounter = 0; //Tracks question number

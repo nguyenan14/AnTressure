@@ -5,7 +5,8 @@
 }
 
 body {
-    font-family: Open Sans;
+    font-family: 'Sofia', cursive;
+    font-size: 1.2em;
     background-color:#8f0713;
     background-image : url("https://droidsoft.fr/wordpress/wp-content/uploads/2015/12/IMG_1111.jpg");
 }
@@ -26,7 +27,8 @@ body {
 
 }
 .button a{
-	color: white;
+    color: white;
+    font-family: 'Sofia', cursive;
 	text-decoration: none;
 }
 
@@ -65,7 +67,7 @@ ul {
 }
 
 img {
-    background-color: #FFFFFFCC;
+    background-color:#daeeff;
     margin: 10px;
     box-shadow: 0px 0px 10px yellow;
     display: block;
