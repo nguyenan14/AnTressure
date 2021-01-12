@@ -100,7 +100,7 @@
       id: "question",
     });
 
-    var header = $("<img src= " + questions[index].img+ "/>");
+    var header = $("<img src= " + questions[index].img+ " />");
     qElement.append(header);
 
     var question = $("<p>").append(questions[index].question);
