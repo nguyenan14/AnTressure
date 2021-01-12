@@ -2,33 +2,33 @@
   var questions = [
     {
       img: "https://an-tressure.herokuapp.com/q1.png",
-      question: "How do you write Le Van last name?",
-      choices: ["Biu", "Bui", "Buy", "Byu"],
-      correctAnswer: 1,
+      question: "Hello! Bienvenue dans le Cross Map. Pour suivre les instructions et trouver le local dans lequel se trouve ton cadeau, réponds correctement aux quetions afin de débloquer l'instruction suivante.<br/>1e question: Quelle est la marque de l'imprimante?",
+      choices: ["HP", "Canon", "Ricoh", "Epson"],
+      correctAnswer: 3,
     },
     {
       img: "https://an-tressure.herokuapp.com/q2.png",
-      question: "What is 3*6?",
-      choices: [3, 6, 9, 12, 18],
-      correctAnswer: 4,
+      question: "Comment s'écrit le nom de famille de Le Van",
+      choices: ["Biu", "Bui", "Byu", "Buyy"],
+      correctAnswer: 2,
     },
     {
       img: "https://an-tressure.herokuapp.com/q3.png",
-      question: "What is 8*9?",
-      choices: [72, 99, 108, 134, 156],
-      correctAnswer: 0,
+      question: "Quel est l'ordre des poubelles de tris?",
+      choices: ["Cartons-PMC-X", "X-PMC-Cartons", "PMC-Cartons-X", "X-Cartons-PMC"],
+      correctAnswer: 1,
     },
     {
       img: "https://an-tressure.herokuapp.com/q4.png",
-      question: "What is 1*7?",
-      choices: [4, 5, 6, 7, 8],
+      question: "Quel est le numéro du local en face de la salle de culture de souris?",
+      choices: ["G2.2.XXX", "G2.2.XXX", "G2.2.XXX", "G2.2.XXX"],
       correctAnswer: 3,
     },
         {
       img: "https://an-tressure.herokuapp.com/q5.png",
-      question: "What is 1*7?",
-      choices: [4, 5, 6, 7, 8],
-      correctAnswer: 3,
+      question: "Quel est le nom du local où tu te trouves ?",
+      choices: ["The room with no name", "TP Dentiste", "Microscope Room", "Big Lab"],
+      correctAnswer: 4,
     }
   ];
 
