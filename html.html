@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Carte au trésors</title>
+		<link type='text/css' rel='stylesheet' href='stylesheet.css'/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open Sans"/>
+	</head>
+	<body>
+		<div id="snow">
+		<div id='container'>
+			  <div id='quiz'></div>
+			<div id='buttons'>
+    		<div class='button' id='next'><a href='#'>Next</a></div>
+    		<div class='button' id='prev'><a href='#'>Prev</a></div>
+    		<div class='button' id='start'> <a href='#'>Start Over</a></div>
+    		<!-- <button class='' id='next'>Next</a></button>
+    		<button class='' id='prev'>Prev</a></button>
+			<button class='' id='start'> Start Over</a></button> -->
+			</div>
+		</div>
+		</div>
+
+		<script src='snow.js'></script>
+		<script>
+			document.addEventListener("DOMContentLoaded", function () {
+			new Snow("#snow", {
+					number: 30,
+					r: 5,
+					v: 1.8
+				});
+			;
+			});</script>
+		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+		<script type="text/javascript" src='questions.json'></script>
+		<script type='text/javascript' src='jsquiz.js'></script>
+
+	</body>
+</html>

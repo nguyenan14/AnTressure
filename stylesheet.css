@@ -1,0 +1,72 @@
+#snow {
+  position:relative;
+  width:100%;
+  height:100%;
+}
+
+body {
+    font-family: Open Sans;
+    background-color:#002a59;
+}
+#title {
+    text-decoration: underline;
+}
+
+#quiz {
+    text-indent: 10px;
+    display:none;
+}
+
+.button{
+	display: inline;
+	background-color: #002a59;
+	padding: 5px;
+	margin: 5px;
+
+}
+.button a{
+	color: white;
+	text-decoration: none;
+}
+
+#buttons {
+  display: flex;
+  justify-content : center;
+}
+
+
+
+
+#container {
+    width:50%;
+    margin:auto;
+    padding: 0 25px 40px 10px;
+    background-color: #0062af;
+    border:4px solid #003d6f;
+    border-radius:5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px #1e1e1e;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#prev {
+    display:none;
+}
+
+#start {
+    display:none;
+    width: 90px;
+}
+
+img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
