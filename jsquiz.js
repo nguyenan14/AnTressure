@@ -24,6 +24,12 @@
       choices: [4, 5, 6, 7, 8],
       correctAnswer: 3,
     }
+        {
+      img: "https://an-tressure.herokuapp.com/q5.png",
+      question: "What is 1*7?",
+      choices: [4, 5, 6, 7, 8],
+      correctAnswer: 3,
+    }
   ];
 
   var questionCounter = 0; //Tracks question number
