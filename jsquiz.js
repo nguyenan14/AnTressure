@@ -1,31 +1,31 @@
 (function () {
   var questions = [
     {
-      img: "q1.png",
+      img: "https://an-tressure.herokuapp.com/q1.png",
       question: "What is 2*5?",
       choices: [2, 5, 10, 15, 20],
       correctAnswer: 2,
     },
     {
-      img: "q2.png",
+      img: "https://an-tressure.herokuapp.com/q2.png",
       question: "What is 3*6?",
       choices: [3, 6, 9, 12, 18],
       correctAnswer: 4,
     },
     {
-      img: "q3.png",
+      img: "https://an-tressure.herokuapp.com/q3.png",
       question: "What is 8*9?",
       choices: [72, 99, 108, 134, 156],
       correctAnswer: 0,
     },
     {
-      img: "q4.png",
+      img: "https://an-tressure.herokuapp.com/q4.png",
       question: "What is 1*7?",
       choices: [4, 5, 6, 7, 8],
       correctAnswer: 3,
     },
     {
-      img: "q5.png",
+      img: "https://an-tressure.herokuapp.com/q5.png",
       question: "What is 8*8?",
       choices: [20, 30, 40, 50, 64],
       correctAnswer: 4,
