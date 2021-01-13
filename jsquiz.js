@@ -2,7 +2,7 @@
   var questions = [
     {
       img: "https://an-tressure.herokuapp.com/q1.png",
-      question: "Hello! Bienvenue dans le Cross Map. Pour suivre les instructions et trouver le local dans lequel se trouve ton cadeau, reponds correctement aux questions afin de debloquer l'instruction suivante.<br/>1e question: Quelle est la marque de l'imprimante?",
+      question: "Hello! Bienvenue dans le Cross Map. Pour trouver le local dans lequel se trouve ton cadeau, reponds correctement aux questions afin de debloquer l'instruction suivante.<br/><br/>Quelle est la marque de l'imprimante?",
       choices: ["HP", "Canon", "Ricoh", "Epson"],
       correctAnswer: 2,
     },
@@ -14,14 +14,14 @@
     },
     {
       img: "https://an-tressure.herokuapp.com/q3.png",
-      question: "Quel est l'ordre des poubelles de tris?",
-      choices: ["Cartons-PMC-X", "X-PMC-Cartons", "PMC-Cartons-X", "X-Cartons-PMC"],
+      question: "Quel est l'ordre des poubelles de tri?",
+      choices: ["Paper-Cans-Plastic", "Plastic-Paper-Cans", "Cans-Paper-Plastic", "Cans-Paper-Plastic"],
       correctAnswer: 0,
     },
     {
       img: "https://an-tressure.herokuapp.com/q4.png",
       question: "Quel est le numero du local en face de la salle de culture de souris?",
-      choices: ["G2.2.XXX", "G2.2.XXX", "G2.2.XXX", "G2.2.XXX"],
+      choices: ["G2.2.300", "G2.2.301", "G2.2.311", "G2.2.310"],
       correctAnswer: 3,
     },
         {
